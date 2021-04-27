@@ -1,5 +1,10 @@
 import express from 'express';
 import xss from 'xss';
+import dotenv from 'dotenv';
+
+dotenv.config({
+    path: process.env.NODE_ENV === "test" ? ".env.test" : ".env"
+});
 
 const { PORT } = process.env;
 
