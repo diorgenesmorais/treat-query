@@ -1,0 +1,19 @@
+{
+  "name": "tratar_parametros",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config src/main.js"
+  },
+  "keywords": [],
+  "author": "Diorgenes Morais <diorgenesmorais@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "xss": "^1.0.8"
+  },
+  "type": "module"
+}
